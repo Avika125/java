@@ -1,0 +1,26 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    char ch;
+	    System.out.println("Enter a Character");
+	    Scanner sc = new Scanner (System.in);
+	    ch = sc.next().charAt(0);
+	   if(ch>='0' && ch<='9')
+       {
+           System.out.println(" Entered Character is Digit");
+       }
+       else if(ch>='A' && ch<='Z')
+       {
+           System.out.println("Entered Character is Capital Letter");
+       }
+       else if(ch>='a' && ch<='z')
+       {
+           System.out.println("Entered Character is Small Letter");
+       }
+       else
+       {
+           System.out.println("Entered Character is Special Character");
+       }
+	}
+}

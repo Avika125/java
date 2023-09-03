@@ -1,0 +1,16 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		int postive, negative, zeros;
+		Scanner sc = new Scanner(System.in);
+		int number  = sc.nextInt();
+		if(number>0){
+		System.out.println("postive");
+		}else if(number<0){
+        System.out.println("negative");
+		}else{
+		System.out.println("zero");;
+		}
+	}
+}
